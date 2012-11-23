@@ -7,7 +7,7 @@ $wgExtensionCredits['specialpage'][] = array
    'author' => 'Tim Janik',
    'url' => 'http://testbit.eu/MediaWiki_Extension_ListItemFilter',
    'descriptionmsg' => 'Filter list items in a wiki page for certain keys',
-   'version' => '0.0.0',
+   'version' => '0.0.1',
    );
 $wgAutoloadClasses['SpecialListItemFilter'] = dirname (__FILE__) . '/Special.php';     // auto-load extension class
 $wgExtensionMessagesFiles['ListItemFilter'] = dirname (__FILE__) . '/Special.i18n.php';       // load extension messages file
